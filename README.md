@@ -1,2 +1,2 @@
 # provisioner-logger
-Sidecar logger for collecting and shipping logs from Massdriver provisioners
+A logging sidecar to ship provisioner logs to Massdriver for storage and viewing.
