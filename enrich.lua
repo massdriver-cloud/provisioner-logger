@@ -1,5 +1,5 @@
 index = 0
-step = os.getenv("MASSDRIVER_BUNDLE_STEP") or "unknown"
+step = os.getenv("MASSDRIVER_STEP_PATH") or "unknown"
 
 function add_index(tag, timestamp, record)
     local ts = math.floor(timestamp)
