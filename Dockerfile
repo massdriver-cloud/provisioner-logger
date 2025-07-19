@@ -8,6 +8,8 @@ COPY enrich.lua /fluent-bit/etc/enrich.lua
 
 ENV MASSDRIVER_AUTH_HEADER=unset
 ENV LOG_HOST=api.massdriver.cloud
+ENV LOG_PORT=443
+ENV LOG_TLS=On
 ENV LOG_URI=/logs
 
 ENTRYPOINT ["/fluent-bit/bin/fluent-bit"]
